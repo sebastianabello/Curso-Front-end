@@ -1,13 +1,60 @@
 /* 
   Estilos de la Fuente
 
-  font-family
-  font-size
-  font-weight
-  font-style
-  font-variant
-  line-height
-  font
+  font-family: 
+    serif - Times New Roman, Georgia, serif
+    sans-serif - Arial, Helvetica, sans-serif
+    monospace - Courier New, Courier, monospace
+    cursive - Comic Sans MS, cursive
+    fantasy - Impact, fantasy
+  font-size: 
+    xx-small
+    x-small
+    small
+    medium
+    large
+    x-large
+    xx-large
+    smaller
+    larger
+    length
+    %
+    initial
+    inherit
+  font-weight:: 
+    normal
+    bold
+    bolder
+    lighter
+    100
+    200
+    300
+    400
+    500
+    600
+    700
+    800
+    900
+  font-style::a
+    normal
+    italic
+    oblique
+    initial
+    inherit
+  font-variant: 
+    normal
+    small-caps
+    initial
+    inherit
+  line-height: 
+    normal
+    number
+    length
+    %
+    initial
+    inherit
+  font: 
+    font-style font-variant font-weight font-size/line-height font-family
 */
 
 .font {
@@ -17,7 +64,7 @@
   font-weight: bold;
   font-style: italic;
   font-variant: small-caps;
-  line-height: 2;
+  line-height: 0;
   font: italic small-caps bold 24px / 1.5 monospace;
 }
 
@@ -83,12 +130,18 @@ writing-mode
   text-align: left;
   text-decoration: overline;
   text-decoration: none;
-  text-indent: 3rem;
+  text-indent: 2rem;
   text-transform: capitalize;
   text-transform: lowercase;
   text-transform: uppercase;
   text-transform: none;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.2rem;
+  /* word-breack:
+    normal- predeterminado
+    break-all - rompe la palabra en cualquier lugar
+    keep-all - no rompe la palabra
+    break-word - rompe la palabra en el punto de quiebre
+   */
   word-break: break-all;
   writing-mode: vertical-rl;
   writing-mode: vertical-lr;
@@ -106,7 +159,18 @@ writing-mode
   width: 50%;
   font-size: 2rem;
   overflow: hidden;
+  /* white-space:
+    normal - predeterminado
+    nowrap - no permite el salto de línea
+    pre - permite el salto de línea
+    pre-wrap - permite el salto de línea con identaciones
+    pre-line - permite el salto de línea sin identaciones
+   */
   white-space: nowrap;
+  /* text-overflow
+    clip - recorta el texto
+    ellipsis - agrega puntos suspensivos
+   */
   text-overflow: ellipsis;
 }
 
@@ -114,9 +178,10 @@ writing-mode
   white-space: pre;
 }
 
+/* Separacion de las cada palabra */
 .word-spacing {
   font-size: 2rem;
-  word-spacing: 1rem;
+  word-spacing: 3rem;
 }
 
 .material-icons {
