@@ -10,7 +10,7 @@ img {
 }
 
 .card img {
-  background-color: blanchedalmond;
+  background-color: red;
   height: 300px;
   object-fit: fill; /* default */
   object-fit: cover;

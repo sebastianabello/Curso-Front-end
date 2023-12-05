@@ -15,7 +15,7 @@
   border-radius: 2rem 4rem;
   border-radius: 2rem 4rem 0;
   border-radius: 4rem 3rem 2rem 1rem;
-  border-radius: 2rem;
+  /* border-radius: 2rem; */
 }
 
 .border-radius-2 {
@@ -35,15 +35,20 @@
   border-radius: 50%;
 }
 
+/* outline:
+signifaca el borde exterior de un elemento
+ */
 .outline {
   color: white;
   text-align: center;
-  outline-width: 5px;
+  outline-width: 10px;
   outline-style: dashed;
   outline-color: chartreuse;
-  outline: thick solid blue;
+  outline: 20px solid blue;
   /* border-width: 100px; */
   /* outline-width: 100px; */
   outline-offset: 3rem;
   outline-offset: -3rem;
+  /* outline: none; */
+  
 }
