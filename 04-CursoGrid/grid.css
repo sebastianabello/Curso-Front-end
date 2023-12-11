@@ -262,11 +262,11 @@ img {
 	grid-template-columns: repeat(3, 200px);
 	grid-template-rows: repeat(2, 200px);
 	/* justify-items alinea mis elementos grid en el eje horizontal (X) */
-	justify-items: stretch;
+	justify-items: stretch; 
 	justify-items: start;
 	justify-items: end;
 	justify-items: center;
-	/* justify-items alinea mis elementos grid en el eje vertical (Y) */
+	/* aling-items alinea mis elementos grid en el eje vertical (Y) */
 	align-items: stretch;
 	align-items: start;
 	align-items: end;
